@@ -35,3 +35,7 @@ const myfunction = function(){
 
 console.log(typeof bigNumber);
 console.log(typeof myfunction);
+
+//***************************************
+
+//Stack(Primitive), Heap(Non-Primitive)
