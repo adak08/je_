@@ -78,3 +78,16 @@ form.addEventListener('submit',function(e){
 })
 
 ```
+
+## project3 solution
+
+```javascript
+document.getElementById('clock')
+
+setInterval(function(){
+  let date = new Date();
+  clock.innerHTML = date.toLocaleTimeString()
+},1000);
+
+
+```
